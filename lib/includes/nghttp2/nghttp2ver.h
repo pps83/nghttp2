@@ -1,0 +1,8 @@
+#ifndef NGHTTP2VER_H
+#define NGHTTP2VER_H
+
+#define NGHTTP2_VERSION "1.71.0"
+
+#define NGHTTP2_VERSION_NUM 0x014700
+
+#endif /* NGHTTP2VER_H */
