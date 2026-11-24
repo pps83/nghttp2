@@ -29,7 +29,7 @@
 #include "nghttp2_helper.h"
 #include "nghttp2_debug.h"
 
-static const uint8_t inibuf;
+static const uint8_t inibuf = 0;
 
 void nghttp2_buf_init(nghttp2_buf *buf) {
   *buf = (nghttp2_buf){
